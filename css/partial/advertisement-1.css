@@ -1,0 +1,27 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+main.wrapper>div.offer2{
+    width: 1360px;
+    height: 270px;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+main.wrapper>div.offer2>div.tablig1{
+    display: inline-block;
+}
+main.wrapper>div.offer2>div.tablig1>a.tablig2{
+    display: inline-block;
+    width: max-content;
+    height: auto;
+}
+main.wrapper>div.offer2>div.tablig1>a.tablig2>img.tablig3{
+    width: 670px;
+    height: 260px;
+    border-radius: 20px;
+}
+main.wrapper>div.offer2>div.tajrobe{
+    margin-left: 9px;
+    margin-right: 3px;
+}

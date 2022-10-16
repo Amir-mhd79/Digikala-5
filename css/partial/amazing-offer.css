@@ -1,0 +1,118 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main.wrapper>div.pishnahad{
+    width: 1343px;
+    height: 250px ;
+    background-color:#EF394E ;
+    margin:0 auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 20px 3px;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide1>a.box{
+    display: inline-block;
+    width: max-content;
+    margin:0 20px;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide1>a.box>span.box1{
+    display: block;
+    width: min-content;
+    font-family: B-nazanin;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 40px;
+    color: white;
+    line-height: 25px;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide1>a.box>img.box3{
+    width: 140px ;
+    height: auto;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide1>a.box>span.box4{
+    display: block;
+    color: white;
+    font-family: B-nazanin;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide1>a.box>span.box4>i{
+    font-size: 13px;
+    margin-right: 10px;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide>a.kala{
+    display: inline-block;
+    width: max-content;
+    height: 230px;
+    padding: 10px;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide>a.kala>img.kala1{
+    width: 150px;
+    height: 150px;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide>a.kala>span.kala2{
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin:10px 0;
+    color: gray;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide>a.kala>span.kala3{
+    display: block;
+    text-align: left;
+    font-family: B-nazanin;
+    font-weight: bold;
+    font-size: 20px;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide>a.circle1{
+    display: inline-block;
+    width: max-content;
+    height: auto;
+    margin: 81px 0;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide>a.circle1>i{
+    font-size: 50px;
+    color: teal;
+}
+main.wrapper>div.pishnahad>div>div.swiper-wrapper>div.swiper-slide>a.circle1>span.circle2{
+    display: block;
+    color: teal;
+    font-family: B-nazanin;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+}

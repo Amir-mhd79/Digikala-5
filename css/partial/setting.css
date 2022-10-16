@@ -1,0 +1,25 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main.wrapper{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: unset;
+    color: unset;
+}
+:root{
+    --width1:100%;
+    --width2:1500px;
+    --borderRadius1:10px;
+}

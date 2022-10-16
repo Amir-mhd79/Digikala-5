@@ -1,0 +1,107 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+main.wrapper>div.supermarket-2{
+    width: 1350px;
+    height: 100px;
+    margin: auto;
+    background-color: #EDEFED;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+main.wrapper>div.supermarket-2>div.sabad{
+    display: inline-block;
+    width: max-content;
+    margin-right: 40px;
+} 
+main.wrapper>div.supermarket-2>div.sabad>a.super1>img.sabad2{
+    width: 66px;
+    height: 62px;
+    margin-bottom: 10px;
+}
+main.wrapper>div.supermarket-2>div.fresh{
+    display: inline-block;
+    width: max-content;
+    margin-left: 18px;
+}
+main.wrapper>div.supermarket-2>div.fresh>a.super1>img.fresh3{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 29px;
+}
+main.wrapper>div.supermarket-2>div.takhfif30{
+    display: inline-block;
+    width: 110px;
+    height: 35px;
+    background-color: #39AE00;
+    border-radius: 20px;
+    margin-left: 120px;
+    position: relative;
+    top: -40px; 
+}
+main.wrapper>div.supermarket-2>div.takhfif30>a.takhfif7{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    font-family: B-nazanin;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+}
+main.wrapper>div.supermarket-2>div.super{
+    display: inline-block;
+    width: max-content;
+    border-radius: 75px;
+    position: relative;
+}
+main.wrapper>div.supermarket-2>div.super>a.super1{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+}
+main.wrapper>div.supermarket-2>div.super>a.super1>div.super2{
+    position: absolute;
+    width: 40px;
+    text-align: center;
+    background-color: #EF394E;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 14px;
+}
+main.wrapper>div.supermarket-2>div.super>a.super1>img.super3{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    margin: 10px 5px;
+}
+main.wrapper>div.supermarket-2>div.more{
+    position: relative;
+    display: inline-block;
+    width: 150px ;
+    height: 50px;
+    line-height: 50px;
+    top: -40px;
+    left: -10px;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+}
+main.wrapper>div.supermarket-2>div.more>a.more4{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+}
+main.wrapper>div.supermarket-2>div.more>a.more4>span{
+    font-family: B-nazanin;
+    color: #39AE00;
+    font-size: 20px;
+    font-weight: 700;
+}
+main.wrapper>div.supermarket-2>div.more>a.more4>span>i{
+    margin-right: 7px;
+    font-size: 15px;
+}

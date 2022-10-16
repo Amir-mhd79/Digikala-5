@@ -1,0 +1,287 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+footer{
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+
+
+footer>div.heading1{
+    display: flex;
+    width: inherit;
+    margin-top: 30px;
+}
+footer>div.heading1>div.digi-farsi{
+    display: inline-block;
+    width: 720px;
+}
+footer>div.heading1>div.digi-farsi>a.digi-farsi1{
+    display: inline-block;
+    width: 136px ;
+    height: 40px;
+}
+footer>div.heading1>div.digi-farsi>a.digi-farsi1>img.digi-farsi2{
+    width: inherit;
+    height: inherit;    
+}
+footer>div.heading1>div.bazgasht{
+    display: inline-block;
+    direction: ltr;
+    width: 710px;
+}
+footer>div.heading1>div.bazgasht>a.bazgasht1{
+    display: inline-block;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 105px;
+    height: 22px;
+    padding: 8px 16px;
+    text-align: center;
+    font-family: B-nazanin;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(98, 98, 98);
+}
+footer>div.heading1>div.bazgasht>a.bazgasht1>i{
+    margin-right: 8px;
+}
+
+
+
+footer>div.contact{
+    display: inline-block;
+    width: inherit;
+}
+footer>div.contact>p.contact1{
+    display: inline-block;
+    width: max-content;
+    font-size: 18px;
+    font-family: B-nazanin;
+    padding-left: 15px;
+    border-left: 2px solid gray;
+}
+footer>div.contact>p.contact2{
+    padding-right: 15px;
+    border-left: none;
+}
+
+
+
+footer>div.validity{
+    display: inline-flex;
+    width: inherit;
+    margin: 30px 0;
+}
+footer>div.validity>div.express-delivery{
+    margin-right: 100px;
+}
+footer>div.validity>div.validity1{
+    display: inline-block;
+    width: max-content;
+    margin-left: 150px;
+}
+footer>div.validity>div.validity1>a.validity2{
+    display: inline-block;
+    width: max-content;
+    text-align: center;
+}
+footer>div.validity>div.validity1>a.validity2>img.validity3{
+    width: 56px;
+    height: 56px;    
+}
+footer>div.validity>div.validity1>a.validity2>p.validity4{
+    margin: 0;
+    font-family: B-nazanin;
+    font-size: 18px;
+}
+
+
+
+
+footer>div.about{
+    display: inline-flex;
+    width: inherit;
+    margin-bottom: 40px;
+}
+footer>div.about>div.information{
+    display: inline-block;
+    width: 360px;
+}
+footer>div.about>div.information>h2.information1{
+    font-family: B-nazanin;
+}
+footer>div.about>div.information>a.information2{
+    display: block;
+    color: #A1A3A8;
+    font-family: B-nazanin;
+    font-size: 20px;
+    margin-top: 10px;
+}
+footer>div.about>div.information>div.social-media{
+    display: inline-flex;
+    width: inherit;
+    color: #A1A3A8 ;
+}
+footer>div.about>div.information>div.social-media>a.social-media3{
+    display: inline-flex;
+    margin-left: 45px;
+}
+footer>div.about>div.information>div.social-media>a.social-media3>i{
+    font-size: 35px;
+}
+footer>div.about>div.information>div.email{
+    width: 360px;
+    height: 100px;
+}
+footer>div.about>div.information>div.email>h2.email1{
+    font-family: B-nazanin;
+    font-size: 20px;
+}
+footer>div.about>div.information>div.email>form.email2{
+    width: inherit;
+}
+footer>div.about>div.information>div.email>form.email2>input.email3{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #F0F0F1;
+    outline-style: none;
+    border: unset;
+    font-size: 20px;
+    padding-right: 15px;
+}
+footer>div.about>div.information>div.email>form.email2>input.email4{
+    width: 40px;
+    height: 40px;
+    border: unset;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #757575;
+}
+
+
+
+footer>div.download{
+    display: inline-flex;
+    width: inherit;
+    height: 75px;
+    background-color: #3C4B6D;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+footer>div.download>div.digikalalogo2{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    padding:15px;
+    padding-right: 20px;
+    margin-left: 570px;
+    position: relative;
+}
+footer>div.download>div.digikalalogo2>img.digikalalogo2-1{
+    width: inherit;
+    height: inherit;
+}
+footer>div.download>div.digikalalogo2>span.digikalalogo2-2{
+    position: absolute;
+    font-family: B-nazanin;
+    font-size: 29px;
+    color: white;
+    width: max-content;
+    left: -230px;
+    top: 16px;
+}
+footer>div.download>div.application{
+    display: inline-block;
+    width: 170px;
+    height: 55px;
+    border-radius: 5px;
+    margin: 13px 10px 20px 0;
+}
+footer>div.download>div.application>a.application1{
+    display: inline-block;
+    width: max-content;
+    height: auto;
+}
+footer>div.download>div.application>a.application1>img.application2{
+    width: 160px;
+    height: auto;
+    border-radius: 5px;
+}
+footer>div.download>div.dotted{
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    border-radius: 5px;
+    margin: 14px 30px 20px 15px;
+    background-color: white;
+}
+footer>div.download>div.dotted>a.dotted1{
+    display: inline-block;
+    width: max-content;
+    height: auto;
+}
+footer>div.download>div.dotted>a.dotted1>img.dotted2{
+    width: 47px;
+    height: 47px;
+}
+
+
+
+footer>div.describe{
+    width: inherit;
+    margin: 30px 0;
+}
+footer>div.describe>div.describe1{
+    display: inline-block;
+    width: 800px;
+    height: auto;
+}
+footer>div.describe>div.describe1>h3.describe2{
+    font-family: B-nazanin;
+    margin-top: 0;
+}
+footer>div.describe>div.describe1>p.describe3{
+    font-family: B-nazanin;
+    color: #81878F;
+    font-size: 17px;
+}
+footer>div.describe>div.describe1>a.describe4{
+    display: inline-block;
+    font-family: B-nazanin;
+    font-size: 19px;
+    color: #19C4DD;
+}
+footer>div.describe>div.describe1>a.describe4>i{
+    margin-right: 6px;
+    font-size: 14px;
+}
+footer>div.describe>div.namad{
+    direction: ltr;
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    position: absolute;
+}
+footer>div.describe>div.namad>div.namad1{
+    display: inline-block;
+    width: max-content;
+    margin-right: 10px;
+}
+footer>div.describe>div.namad>div.namad1>a.namad2{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    padding: 16px;
+    border: 1px solid #81878F;
+    border-radius: 10px;
+}
+footer>div.describe>div.namad>div.namad1>a.namad2>img.namad3{
+    width: inherit;
+    height: inherit; 
+}

@@ -1,0 +1,105 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+main.wrapper>div.digiclub{
+    display: flex;
+    width: 1350px;
+    height: 85px;
+    margin:0 auto;
+    margin-bottom: 10px;
+    background-color: #007295;
+    border-radius: 20px;
+}
+main.wrapper>div.digiclub>div.digiclublogo{
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+    margin: 24px 20px 0 155px;
+}
+main.wrapper>div.digiclub>div.digiclublogo>a.digiclublogo1{
+    display: inline-block;
+    width: max-content;
+}
+main.wrapper>div.digiclub>div.digiclublogo>a.digiclublogo1>img.digiclublogo3{
+    width: 140px;
+}
+main.wrapper>div.digiclub>div.score{
+    display: inline-block;
+    width: max-content;
+    margin-left: 20px;
+    position: relative;
+    top: -5px;
+}
+main.wrapper>div.digiclub>div.score>h5.score1{
+    display: inline-block;
+    width: fit-content;
+    font-size: 18px;
+    color: white;
+    font-family: B-nazanin;
+    margin-bottom: 0;
+}
+main.wrapper>div.digiclub>div.score>h5.score1>span.score5{
+    font-size: 25px;
+    margin-right: 5px;
+}
+main.wrapper>div.digiclub>div.score>img.coin1{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 7px;
+}
+main.wrapper>div.digiclub>div.lucky{
+    display: inline-block;
+}
+main.wrapper>div.digiclub>div.lucky>div.club{
+    display: inline-block;
+    width: 285px;
+    height: 64px;
+    margin: 10px 0;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    direction: ltr;
+}
+main.wrapper>div.digiclub>div.lucky>div.mission{
+    border-top-right-radius:unset;
+    border-bottom-right-radius: unset;
+}
+main.wrapper>div.digiclub>div.lucky>div.jayeze{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius:unset;
+    border-bottom-right-radius: unset;
+}
+main.wrapper>div.digiclub>div.lucky>div>a.club1{
+    display: inline-block;
+    width: 285px;
+    height: 64px;
+}
+main.wrapper>div.digiclub>div.lucky>div>a.club1>img.club2{
+    width: 168px;
+    height: 60px;
+    object-fit: cover;
+}
+main.wrapper>div.digiclub>div.lucky>div>a.club1>img.jayeze{
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+main.wrapper>div.digiclub>div.lucky>div>a.club1>div.club3{
+    display: inline-block;
+    margin-bottom: 0;
+    position: relative;
+    top: -22px;
+}
+main.wrapper>div.digiclub>div.lucky>div>a.club1>div.club3>p.club4{
+    display: inline-block;
+    font-family: B-nazanin;
+    font-size: 20px;
+}
+main.wrapper>div.digiclub>div.lucky>div>a.club1>div.club3>p.club4>i{
+    color: #00BFD6;
+    margin-left: 3px;
+    font-size: 17px;
+}

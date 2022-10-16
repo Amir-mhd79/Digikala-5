@@ -1,0 +1,29 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+main.wrapper>div.products{
+    width: 1350px;
+    height: 250px;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+main.wrapper>div.products>div.products1{
+    display: inline-block;
+    width: 315px ;
+    height: 240px;
+    margin-left: 25px;
+}
+main.wrapper>div.products>div.products1>a.products2{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+}
+main.wrapper>div.products>div.products1>a.products2>img.products3{
+    width: 315px ;
+    height: 240px;
+    border-radius: 20px;
+}
+main.wrapper>div.products>div.handology{
+    margin-left: 0;
+}

@@ -1,0 +1,41 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+main.wrapper>div.icon-2{
+    width:1350px;
+    height: 100px;
+    margin: 25px auto;
+}
+main.wrapper>div.icon-2>div.iconGroup1{
+    display: inline-block;
+    width: max-content;
+    border-radius: 20px;
+    margin-left: 79px;
+    text-align: center;
+}
+main.wrapper>div.icon-2>div.iconGroup1>a.iconGroup1-1{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+}
+main.wrapper>div.icon-2>div.iconGroup1>a.iconGroup1-1>img.iconGroup1-2{
+    width: 60px;
+    height: 60px;
+}
+main.wrapper>div.icon-2>div.bishtar{
+    width: 60px;
+    height: 60px;
+    background-color: #F0F0F1;
+    border-radius: 60px;
+    margin-left: 0;
+}
+main.wrapper>div.icon-2>div.jet{
+    margin-right: 30px;
+}
+p.text1{
+    margin: 0;
+    font-family: B-nazanin;
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,59 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+main.wrapper>div.readable{
+    width: 1350px;
+    height: 350px;
+    margin:0 auto;
+    margin-bottom: 10px;
+}
+main.wrapper>div.readable>div.readable1{
+    display: inline-block;
+    width: 650px;
+}
+main.wrapper>div.readable>div.readable2{
+    display: inline-block;
+    width: 675px;
+    direction: ltr;
+}
+main.wrapper>div.readable>div.readable2>a.text11{
+    font-family: B-nazanin;
+    font-size: 25px;
+    font-weight: 600;
+    color: #4E78AA;
+}
+main.wrapper>div.readable>div.readable1>p.text10{
+    font-family: B-nazanin;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+main.wrapper>div.readable>div.read{
+    display: inline-block;
+    width: 328px;
+    height: 280px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+main.wrapper>div.readable>div.android{
+    margin-right: 0;
+}
+main.wrapper>div.readable>div.read>a.read1{
+    display: inline-block;
+    width: max-content;
+    height: inherit;
+}
+main.wrapper>div.readable>div.read>a.read1>img.read2{
+    width: 328px;
+    height: 200px;
+    border-radius: 10px ;
+}
+p.text9{
+    font-family: B-nazanin;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 5px;
+}

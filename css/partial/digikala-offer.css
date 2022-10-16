@@ -1,0 +1,65 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+  .swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-left: 2px solid #F0F0F1;
+    border-bottom: 2px solid #F0F0F1;
+  }
+[data-br]{
+    border-bottom: none;
+}
+div[type=border-left]{
+    border-left: none;
+}
+main.wrapper>div.digikala-offer{
+    width: 1350px;
+    height: 400px;
+    margin:0 auto;
+    margin-bottom: 24px;
+}
+main.wrapper>div.digikala-offer>div.heading-offer{
+    text-align: center;
+}
+main.wrapper>div.digikala-offer>div.heading-offer>h1.heading-offer1{
+    font-family: B-nazanin;
+}
+main.wrapper>div.digikala-offer>div.digikala-offer1{
+    width: 1350px;
+    height: 325px;
+    margin:0 auto;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+}
+main.wrapper>div.digikala-offer>div.digikala-offer1>div>div.swiper-wrapper>div.swiper-slide2>a.daste1{
+    display: inline-block;
+    width: max-content;
+    height: auto;
+}
+main.wrapper>div.digikala-offer>div.digikala-offer1>div>div.swiper-wrapper>div.swiper-slide2>a.daste1>img.daste2{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    padding-top: 10px;
+}
+main.wrapper>div.digikala-offer>div.digikala-offer1>div>div.swiper-wrapper>div.swiper-slide2>a.daste1>h5.daste3{
+    font-family: B-nazanin;
+    font-weight: bold;
+}
