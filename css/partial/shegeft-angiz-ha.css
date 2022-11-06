@@ -1,0 +1,154 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+main.wrapper>div.shegeftAngizha{
+    min-width: 1000px;
+    max-width: 100%;
+    padding: 0 20px;
+}
+main.wrapper>div.shegeftAngizha>div.text-shegeft{
+    width: inherit;
+}
+main.wrapper>div.shegeftAngizha>div.text-shegeft>h2.text-shegeft1{
+    font-family: B-nazanin;
+    margin-top: 0;
+}
+main.wrapper>div.shegeftAngizha>div.sort{
+    width: inherit;
+    height: 30px;
+}
+main.wrapper>div.shegeftAngizha>div.sort>span.sort1{
+    font-family: B-nazanin;
+    font-weight: bold;
+    font-size: 18px;
+}
+main.wrapper>div.shegeftAngizha>div.sort>span.sort1>i{
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+}
+main.wrapper>div.shegeftAngizha>div.sort>a.sort2{
+    font-family: B-nazanin;
+    margin-right: 15px;
+    color: #81858B;
+    font-size: 18px;
+    font-weight: bold;
+}
+main.wrapper>div.shegeftAngizha>div.sort>a.sort2:focus{
+    color: #EF4056;
+}
+main.wrapper>div.shegeftAngizha>div.kala{
+    display: table;
+    width: 100%;
+    margin: 20px auto 0;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1{
+    display: inline-block;
+    width: 270px;
+    height: 490px;
+    padding: 12px 8px;
+    border: 1px solid rgba(211, 211, 211, 0.486);
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1:hover{
+    box-shadow: 1px 1px 5px rgb(105, 102, 102);
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala3{
+    width: inherit;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala3>img.kala4{
+    width: 120px;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala13{
+    text-align: center;
+    margin-top: 10px;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala13>img.kala5{
+    width: 240px;
+    height: 240px;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>h5.kala6{
+    font-family: B-nazanin;
+    font-size: 16px;
+    margin-bottom: 5px;
+    height: 50px;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala7{
+    width: inherit;
+    height: 30px;
+    position: relative;
+    font-family: B-nazanin;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala7>span.mojood{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #81858B;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala7>span.mojood>i{
+    color: rgb(9, 211, 211);
+    margin-left: 5px;
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala7>span.star{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala7>span.star>i{
+    color: #F9BC00;
+    margin-right: 10px;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala8{
+    position: relative;
+    width: inherit;
+    height: 30px;
+    margin-top: 10px;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala8>span.kala9{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-family: B-nazanin;
+    font-weight: bold;
+    font-size: 20px;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala8>div.kala10{
+    width: 35px;
+    height: 20px;
+    background-color: #EF3A4F;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    font-family: B-nazanin;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala11{
+    width: inherit;
+    height: 30px;
+    position: relative;
+    font-family: B-nazanin;
+    margin-top: 7px;
+}
+main.wrapper>div.shegeftAngizha>div.kala>div.kala1>a.kala2>div.kala11>span.kala12{
+    position: absolute;
+    left: 40px;
+    color: #81858B;
+    text-decoration: line-through;
+}

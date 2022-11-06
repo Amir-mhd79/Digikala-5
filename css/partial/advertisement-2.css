@@ -3,7 +3,8 @@ version:1.2.0
 author:Amirmohammad Akbarloo
 */
 main.wrapper>div.koodak{
-    width: 1350px;
+    min-width: 1000px;
+    max-width: 1350px;
     height: 165px;
     margin:0 auto;
     margin-bottom: 10px;

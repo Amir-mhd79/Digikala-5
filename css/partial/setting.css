@@ -9,6 +9,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 main.wrapper{
     width: 100%;
@@ -22,4 +23,7 @@ a{
     --width1:100%;
     --width2:1500px;
     --borderRadius1:10px;
+}
+::marker{
+    font-size: 0;
 }

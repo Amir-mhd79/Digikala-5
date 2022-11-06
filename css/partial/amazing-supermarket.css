@@ -3,12 +3,18 @@ version:1.2.0
 author:Amirmohammad Akbarloo
 */
 main.wrapper>div.supermarket-2{
-    width: 1350px;
+    min-width: 1000px;
+    max-width: 1350px;
     height: 100px;
     margin: auto;
     background-color: #EDEFED;
     border-radius: 20px;
     margin-bottom: 10px;
+    background-image: url(../../images/freshPattern.svg);
+}
+main.wrapper>div.supermarket-3{
+    min-width: 1000px;
+    max-width: 1450px;
 }
 main.wrapper>div.supermarket-2>div.sabad{
     display: inline-block;
@@ -40,7 +46,10 @@ main.wrapper>div.supermarket-2>div.takhfif30{
     position: relative;
     top: -40px; 
 }
-main.wrapper>div.supermarket-2>div.takhfif30>a.takhfif7{
+main.wrapper>div.supermarket-2>div.takhfif1{
+    margin-left: 12vw;
+}
+main.wrapper>div.supermarket-2>div.takhfif30>a.takhfif30-1{
     display: inline-block;
     width: inherit;
     height: inherit;
@@ -81,7 +90,7 @@ main.wrapper>div.supermarket-2>div.super>a.super1>img.super3{
 main.wrapper>div.supermarket-2>div.more{
     position: relative;
     display: inline-block;
-    width: 150px ;
+    width: 140px ;
     height: 50px;
     line-height: 50px;
     top: -40px;

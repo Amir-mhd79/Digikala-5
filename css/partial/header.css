@@ -4,25 +4,34 @@ author:Amirmohammad Akbarloo
 */
 header{
     width: var(--width1);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 
 
 header>div.dars{
     width: var(--width1); 
+    height: 60px;
 }
 header>div.dars>a.dars1{
+    display: inline-block;
     width: inherit;
+    height: inherit;
 }
 header>div.dars>a.dars1>img.poshte-miz{
     width: inherit;
+    height: inherit;
+    object-fit: cover;
 }
 
 
 
 header>div.search{
-    display: flex;
-    width: var(--width2);
+    min-width: 1000px;
+    max-width: 1645px;
     height: 60px;
     margin: 5px auto;
 }
@@ -33,6 +42,7 @@ header>div.search>div.logo{
     display: inline-block;
     width: 115px;
     height: 60px;
+    margin-right: 20px;
 }
 header>div.search>div.logo>a.logo1{
     display: inline-block;
@@ -50,10 +60,11 @@ header>div.search>div.jostojo{
     display: inline-block;
     width: 600px;
     height: 50px;
-    margin-left: 38%;
+    margin-left: 35vw;
     margin-right: 10px;
     background-color: #F0F0F1;
     border-radius: 10px;
+    vertical-align: top;
 }
 header>div.search>div.jostojo>div.search-logo{
     display: inline-block;
@@ -91,8 +102,7 @@ header>div.search>div.icon-1{
     display: inline-block;
     width: max-content;
     height: 35px;
-    line-height: 45px;
-    margin-top: 10px;
+    line-height: 60px;
 }
 header>div.search>div.icon-1>div.user{
     display: inline-block;
@@ -102,16 +112,143 @@ header>div.search>div.icon-1>div.user{
     border-left: gray solid 1px;
     padding-left: 20px;
 }
-header>div.search>div.icon-1>div.user>a.user1{
-    display: inline-block;
-    width: auto;
+#login , #close{
+    display: none;
 }
-header>div.search>div.icon-1>div.user>a.user1>i{
+#login:checked ~ div.login{
+    top: 0;
+}
+#close:checked ~ div.login{
+    top: -100vh;
+}
+header>div.search>div.icon-1>div.user>label[for=login]{
     font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    top: -13px;
 }
+header>div.search>div.icon-1>div.user>div.login{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.733);
+    left: 0;
+    top: -100vh;
+    z-index: 50;
+    transition: 300ms;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1{
+    width: 335px;
+    height: 395px;
+    padding: 30px;
+    background-color: white;
+    position: absolute;
+    left: calc(50% - 335px / 2);
+    top: calc(50% - 375px / 2);
+    border:1px solid lightgray ;
+    border-radius: 10px;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>div.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #E81123;
+    text-align: center;
+    transition: 300ms;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>div.close>label[for=close]{
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: -5px;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>div.digikalaLogo{
+    width: inherit;
+    height: 50px;
+    text-align: center;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>div.digikalaLogo>a.digikalaLogo1{
+    display: inline-block;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>div.digikalaLogo>a.digikalaLogo1>img.digikalaLogo2{
+    width: 136px;
+    height: 36px;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>h2.sabtenam{
+    font-family: B-nazanin;
+    margin: 10px 0;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>p.varedKopnid{
+    margin-top: 0;
+    font-family: B-nazanin;
+    font-size: 18px;
+    line-height: 30px;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>form[method=post]{
+    width: inherit;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>form[method=post]>div.input1{
+    width: 330px;
+    height: 48px;
+    border: 2px solid #E3364A;
+    border-radius: 10px;
+    text-align: center;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>form[method=post]>div.input1>input[id=mobileNumber]{
+    position: relative;
+    top: -5px;
+    width: 300px;
+    height: 30px;
+    outline: unset;
+    padding: 8px;
+    border: unset;
+    font-size: 18px;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>form[method=post]>label[for=mobileNumber]{
+    font-family: B-nazanin;
+    color: #E3364A;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>form[method=post]>input[type=submit]{
+    display: block;
+    width: inherit;
+    height: 48px;
+    background-color: #EF4056;
+    border: unset;
+    border-radius: 10px;
+    font-family: B-nazanin;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>p.rules{
+    width: inherit;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: B-nazanin;
+    font-weight: bold;
+    margin: 5px 0 0;
+    position: relative;
+    top: -5px;
+}
+header>div.search>div.icon-1>div.user>div.login>div.login1>p.rules>a{
+    color: #3597c1;
+}
+
+
 header>div.search>div.icon-1>div.basket{
     display: inline-block;
     width: auto;
+    height: 55px;
+    position: relative;
+    top: -12px;
 }
 header>div.search>div.icon-1>div.basket>a.basket1{
     display: inline-block;
@@ -125,27 +262,27 @@ header>div.search>div.icon-1>div.basket>a.basket1>i{
 
 
 header>nav.menu{
-    width: var(--width2);
-    height: 31px;
-    margin: auto;
+    min-width: 1000px;
+    max-width: 1645px;
+    height: 35px;
+    margin:5px auto;
+    margin-bottom: 0;
+    position: relative;
 }
 header>nav.menu>ul{
-    width: var(--width2);
-    height: 30px;
-    list-style: none;
+    height: inherit;
     padding-right: 0;
     margin: 0;
 }
 header>nav.menu>ul>li{
     display: inline-block;
     width: max-content;
-}
-header>nav.menu>ul>li.li2{
-    margin-left: 32%;
+    height: 18px;
 }
 header>nav.menu>ul>li>a{
     display: inline-block;
     width: max-content;
+    height: 32px;
     margin-right: 15px;
     text-align: center;
     font-size: 17px;
@@ -168,14 +305,270 @@ header>nav.menu>ul>li>a.dastebandi{
     color: black;
     margin-right: 0;
 }
+header>nav.menu>ul>li>a.dastebandi2{
+    margin-right: 25px;
+}
 header>nav.menu>ul>li>a.location{
     font-size: 19px;
     color: black;
     border-bottom: none;
+    margin-right: 30vw;
 }
 header>nav.menu>ul>li>a.location>i{
     font-size: 18px;
 }
 header>nav.menu>ul>li>a.location:hover{
     border-bottom: none;
+}
+
+ 
+
+header>nav.menu>ul>li>div.submenu{
+    display: none;
+    width: 96vw;
+    height: 561px;
+    background-color: white;
+    position: absolute;
+    top: 35px;
+    right: calc(50% - 96vw / 2);
+    box-shadow: 1px 1px 3px 0px gray;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+header>nav.menu>ul>li:hover>div.submenu{
+    display: block;
+}
+header>nav.menu>ul>li>div.submenu>div.right{
+    display: inline-block;
+    width: 210px;
+    height: inherit;
+    border-left: 1px solid lightgray;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul{
+    width: inherit;
+    height: inherit;
+    padding-right: 0;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li{
+    width: inherit;
+    height: 51px;
+    position: relative;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>a{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    font-family: B-nazanin;
+    line-height: 51px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #181818;
+    transition: 300ms;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>a:hover{
+    background-color: #DADADA;
+    color: #E3364A;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>a>i{
+    margin: 0 10px;
+    position: relative;
+    top: 3px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>a>i.fa-mobile-alt{
+    margin-right: 16px;
+    margin-left: 12px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>a>i.fa-child ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>a>i.fa-chess-rook
+{
+    margin-right: 12px;
+    margin-left: 15px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>a>i.fa-book{
+    margin-right: 13px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>a>span{
+    position: relative;
+    right: 5px;
+}
+
+
+
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links{
+    width: 76vw;
+    height: 561px;
+    position: absolute;
+    top: 0;
+    left: -76vw;
+    display: none;
+
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.kalayeDigital>div.links{
+    top: -51px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.tajhizatSanati>div.links{
+    top: -102px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.modeVaPoshak>div.links{
+    top: -153px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.kalahayeSupermarketi>div.links{
+    top: -204px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.asbabBazi>div.links{
+    top: -255px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.mahsolatBoomi>div.links{
+    top: -306px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.zibayiiVaSalamat>div.links{
+    top: -357px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.khaneVaAshpazkhane>div.links{
+    top: -408px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.ketabVaLavazem>div.links{
+    top: -459px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.varzeshVaSafar>div.links{
+    top: -510px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.gooshi:hover>div.links ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.kalayeDigital:hover>div.links ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.tajhizatSanati:hover>div.links ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.modeVaPoshak:hover>div.links ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.kalahayeSupermarketi:hover>div.links ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.asbabBazi:hover>div.links ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.mahsolatBoomi:hover>div.links ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.zibayiiVaSalamat:hover>div.links ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.khaneVaAshpazkhane:hover>div.links ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.ketabVaLavazem:hover>div.links ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.varzeshVaSafar:hover>div.links
+{
+    display: block;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.gooshi>div.links>div.submenu1 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.gooshi>div.links>div.submenu2 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.gooshi>div.links>div.submenu3 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.gooshi>div.links>div.submenu4 ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.tajhizatSanati>div.links>div.submenu1 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.tajhizatSanati>div.links>div.submenu2 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.tajhizatSanati>div.links>div.submenu3 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.tajhizatSanati>div.links>div.submenu4 
+{
+    vertical-align: top;
+    width: 295px;
+    height: 561px;
+    display: inline-block;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.gooshi>div.links>div.submenu3 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.tajhizatSanati>div.links>div.submenu3 
+{
+    width: 240px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.gooshi>div.links>div.submenu4 ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li.tajhizatSanati>div.links>div.submenu4 
+{
+    width: 311px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4
+{
+    vertical-align: top;
+    width: 280px;
+    height: 561px;
+    display: inline-block;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1>ul , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2>ul , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3>ul ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>ul
+{
+    width: inherit;
+    height: inherit;
+    padding-right: 20px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1>ul>li , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2>ul>li , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3>ul>li ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>ul>li
+{
+    width: inherit;
+    height: 30px;
+    position: relative;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1>ul>li.allofproducts , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2>ul>li.allofproducts , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3>ul>li.allofproducts ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>ul>li.allofproducts
+{
+    margin-bottom: 20px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1>ul>li.allofproducts>a.allofproducts1 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2>ul>li.allofproducts>a.allofproducts1 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3>ul>li.allofproducts>a.allofproducts1 ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>ul>li.allofproducts>a.allofproducts1 
+{
+    font-size: 20px;
+    color: #181818;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1>ul>li>a , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2>ul>li>a , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3>ul>li>a ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>ul>li>a 
+{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    font-family: B-nazanin;
+    line-height: 51px;
+    font-size: 19px;
+    color: #91949A;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1>ul>li>a:hover , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2>ul>li>a:hover , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3>ul>li>a:hover , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>ul>li>a:hover , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1>ul>li.marginBottom1>a.headline1:hover ,  
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2>ul>li.marginBottom1>a.headline1:hover , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3>ul>li.marginBottom1>a.headline1:hover ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>ul>li.marginBottom1>a.headline1:hover 
+{
+    color: #E3364A;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1>ul>li>a>i , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2>ul>li>a>i , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3>ul>li>a>i ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>ul>li>a>i 
+{
+    margin-right: 5px;
+    font-size: 15px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1>ul>li.marginBottom1 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2>ul>li.marginBottom1 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3>ul>li.marginBottom1 ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>ul>li.marginBottom1
+{
+    margin-bottom: 8px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu1>ul>li.marginBottom1>a.headline1 ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu2>ul>li.marginBottom1>a.headline1 ,
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu3>ul>li.marginBottom1>a.headline1 , 
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>ul>li.marginBottom1>a.headline1  
+{
+    font-size: 23px; 
+    font-weight: 600;
+    color: #181818;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>a{
+    display: inline-block;
+    width: 240px;
+    height: 210px;
+    margin-top: 25px;
+}
+header>nav.menu>ul>li>div.submenu>div.right>ul>li>div.links>div.submenu4>a>img.agsat{
+    width: 240px;
+    border-radius: 10px;
 }

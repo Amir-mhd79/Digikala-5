@@ -19,6 +19,7 @@ author:Amirmohammad Akbarloo
 @import "partial/readable.css";
 @import "partial/footer.css";
 @import "partial/digikala-offer.css";
+@import "partial/support.css";
 
 @font-face{
     font-family: B-nazanin;

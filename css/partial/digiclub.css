@@ -4,7 +4,8 @@ author:Amirmohammad Akbarloo
 */
 main.wrapper>div.digiclub{
     display: flex;
-    width: 1350px;
+    min-width: 1000px;
+    max-width: 1350px;
     height: 85px;
     margin:0 auto;
     margin-bottom: 10px;

@@ -3,8 +3,8 @@ version:1.2.0
 author:Amirmohammad Akbarloo
 */
 footer{
-    width: 1440px;
-    height: 80px;
+    min-width: 1000px;
+    max-width: 1350px;
     margin: 0 auto;
 }
 
@@ -73,8 +73,9 @@ footer>div.contact>p.contact2{
 
 footer>div.validity{
     display: inline-flex;
-    width: inherit;
-    margin: 30px 0;
+    min-width: 1000px;
+    max-width: 1350px;
+    margin: 25px 0;
 }
 footer>div.validity>div.express-delivery{
     margin-right: 100px;
@@ -82,7 +83,7 @@ footer>div.validity>div.express-delivery{
 footer>div.validity>div.validity1{
     display: inline-block;
     width: max-content;
-    margin-left: 150px;
+    margin-left: 140px;
 }
 footer>div.validity>div.validity1>a.validity2{
     display: inline-block;
@@ -103,13 +104,14 @@ footer>div.validity>div.validity1>a.validity2>p.validity4{
 
 
 footer>div.about{
-    display: inline-flex;
-    width: inherit;
+    min-width: 1000px;
+    max-width: 1350px;
     margin-bottom: 40px;
 }
 footer>div.about>div.information{
     display: inline-block;
-    width: 360px;
+    width: 330px;
+    vertical-align: top;
 }
 footer>div.about>div.information>h2.information1{
     font-family: B-nazanin;
@@ -122,19 +124,19 @@ footer>div.about>div.information>a.information2{
     margin-top: 10px;
 }
 footer>div.about>div.information>div.social-media{
-    display: inline-flex;
+    display: inline-block;
     width: inherit;
     color: #A1A3A8 ;
 }
 footer>div.about>div.information>div.social-media>a.social-media3{
-    display: inline-flex;
+    display: inline-block;
     margin-left: 45px;
 }
 footer>div.about>div.information>div.social-media>a.social-media3>i{
     font-size: 35px;
 }
 footer>div.about>div.information>div.email{
-    width: 360px;
+    width: 330px;
     height: 100px;
 }
 footer>div.about>div.information>div.email>h2.email1{
@@ -151,7 +153,7 @@ footer>div.about>div.information>div.email>form.email2>input.email3{
     background-color: #F0F0F1;
     outline-style: none;
     border: unset;
-    font-size: 20px;
+    font-size: 18px;
     padding-right: 15px;
 }
 footer>div.about>div.information>div.email>form.email2>input.email4{
@@ -167,7 +169,8 @@ footer>div.about>div.information>div.email>form.email2>input.email4{
 
 footer>div.download{
     display: inline-flex;
-    width: inherit;
+    min-width: 1000px;
+    max-width: 1350px;
     height: 75px;
     background-color: #3C4B6D;
     border-radius: 10px;
@@ -180,7 +183,7 @@ footer>div.download>div.digikalalogo2{
     border-radius: 5px;
     padding:15px;
     padding-right: 20px;
-    margin-left: 570px;
+    margin-left: 450px;
     position: relative;
 }
 footer>div.download>div.digikalalogo2>img.digikalalogo2-1{
@@ -218,7 +221,7 @@ footer>div.download>div.dotted{
     width: 47px;
     height: 47px;
     border-radius: 5px;
-    margin: 14px 30px 20px 15px;
+    margin: 14px 15px 20px 20px;
     background-color: white;
 }
 footer>div.download>div.dotted>a.dotted1{
@@ -234,12 +237,13 @@ footer>div.download>div.dotted>a.dotted1>img.dotted2{
 
 
 footer>div.describe{
-    width: inherit;
+    min-width: 1000px;
+    max-width: 1350px;
     margin: 30px 0;
 }
 footer>div.describe>div.describe1{
     display: inline-block;
-    width: 800px;
+    width: 760px;
     height: auto;
 }
 footer>div.describe>div.describe1>h3.describe2{
@@ -264,7 +268,7 @@ footer>div.describe>div.describe1>a.describe4>i{
 footer>div.describe>div.namad{
     direction: ltr;
     display: inline-block;
-    width: 630px;
+    width: 580px;
     height: auto;
     position: absolute;
 }

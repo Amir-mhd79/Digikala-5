@@ -1,0 +1,20 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+@import "partial/header.css";
+@import "partial/setting.css";
+@import "partial/footer.css";
+@import "partial/support.css";
+@import "partial/amazing-offer2.css";
+@import "partial/robe-etmam.css";
+@import "partial/amazing-supermarket.css";
+@import "partial/shegeft-angiz-ha.css";
+
+@font-face{
+    font-family: B-nazanin;
+    src: url(../fonts/B-nazanin/B-NAZANIN.TTF);
+    src: url(../fonts/B-nazanin/B-NAZANIN.eot);
+    src: url(../fonts/B-nazanin/B-NAZANIN.woff);
+    src: url(../fonts/B-nazanin/B-NAZANIN.woff2);
+}

@@ -1,0 +1,155 @@
+/*
+version:1.2.0
+author:Amirmohammad Akbarloo
+*/
+main.wrapper>div.support{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 30px;
+    bottom: 20px;
+    z-index: 10;
+}
+main.wrapper>div.support>label[for=support]{
+    display: block;
+    width: inherit;
+    height: inherit;
+    background-color: #EF4056;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+}
+main.wrapper>div.support>label[for=support]>i{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: -10px;
+    top: 9px;
+}
+#support,#exit{
+    display: none;
+}
+#support:checked ~ div.poshtibani{
+    display: block;
+}
+main.wrapper>div.support>div.poshtibani{
+    width: 360px;
+    height: 485px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: -500px;
+    left: 0px;
+    display: none;
+    border: 1px solid #EF4056;
+}
+main.wrapper>div.support>div.poshtibani>div.poshtibaniOnline{
+    width: inherit;
+    height: 55px;
+    background-color: #EF4056;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani{
+    width: inherit;
+    height: 428px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+main.wrapper>div.support>div.poshtibani>div.poshtibaniOnline>h2.poshtibaniOnline1{
+    display: inline-block;
+    margin: 0;
+    font-family: B-nazanin;
+    color: white;
+    line-height: 55px;
+    margin-right: 20px;
+}
+main.wrapper>div.support>div.poshtibani>div.poshtibaniOnline>label[for=exit]{
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    cursor: pointer;
+}
+main.wrapper>div.support>div.poshtibani>div.poshtibaniOnline>label[for=exit]>i{
+    font-size: 20px;
+    color: white;
+}
+#exit:checked ~ div.poshtibani{
+    display: none;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani1{
+    width: 330px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani1>p.aboutSupport1{
+    font-family: B-nazanin;
+    font-size: 20px;
+    margin:0 0 10px;
+    padding: 10px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani2{
+    width: 330px;
+    height: auto;
+    margin: 10px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani2>div.soal{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani2>div.soal>h3{
+    display: inline-block;
+    font-family: B-nazanin;
+    margin: 7px 0 0;
+    font-size: 20px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani2>div.soal>i{
+    position: relative;
+    left: -40px;
+    top: 2px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani2>div.soal>i.soal2{
+    left: -27px;
+    top: -10px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani2>div.soal>i.soal3{
+    left: -15px;
+    top: -25px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani3{
+    width: 330px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani3>h3{
+    width: fit-content;
+    margin: 10px auto;
+    font-family: B-nazanin;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani3>div.goftogo{
+    width: 200px;
+    height: 50px;
+    background-color: #19BFD3;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani3>div.goftogo>a{
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani3>div.goftogo>a>h3{
+    width: fit-content;
+    font-family: B-nazanin;
+    color: white;
+    line-height: 50px;
+}
+main.wrapper>div.support>div.poshtibani>div.subPoshtibani>div.poshtibani3>div.goftogo>a>h3>i{
+    font-size: 15px;
+    margin-right: 10px;
+}
